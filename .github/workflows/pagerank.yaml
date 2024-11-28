@@ -24,7 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v5
       with:
         # we want to run this job for multiple python versions to test compatibility
         python-version: ${{ matrix.python-version }}
